@@ -1,0 +1,77 @@
+* {
+	margin: 0px;
+	color: white;
+  }
+  .navigation {
+	height: 10vh;
+	display: flex;
+	padding: 5px 20px;
+	z-index: 1;
+	justify-content: flex-start;
+	align-items: center;
+	background-color: rgb(39, 38, 38);
+  }
+  
+  .navigation ul li {
+	font-size: 20px;
+	list-style: none;
+	display: inline;
+	justify-content: space-evenly;
+	margin-left: 100px;
+	color: white;
+  }
+  
+  .navigation ul li:hover {
+	background-color: rgb(65, 64, 64);
+  }
+body{
+	background-image: url(https://kettocdn.gumlet.io/media/campaign/496000/496779/image/6128936f21ae9.jpeg?w=400&dpr=2.6);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+.main-container{
+	height: 90vh;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+.container{
+	position: absolute;
+	/* background-color: rgb(171, 171, 226); */
+	padding: 20px;
+	
+	
+
+}
+.main-container .container marquee{
+font-size: 40px;
+}
+.main-container .container form{
+	font-size: 20px;
+}
+
+.main-wrapper {
+	margin-top: 20px;
+}
+
+.page-title {
+	text-align: center;
+}
+
+.registraion-form {
+	width: 800px;
+  margin: auto;
+}
+.valid-feedback, .invalid-feedback{
+    display: none;
+}
