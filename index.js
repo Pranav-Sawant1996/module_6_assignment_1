@@ -1,12 +1,12 @@
 let globalisSubmit=false
 function reset(){
   let firstName= document.getElementById('first-name').value=''
-    let lastName= document.getElementById('last-name').value=''
-    let email= document.getElementById('email').value=''
-    let city= document.getElementById('city').value=''
-    let state= document.getElementById('state').value=''
-    let zipCode= document.getElementById('zip-code').value=''
-    let check= document.getElementById('t-and-c').checked=false
+     lastName= document.getElementById('last-name').value=''
+     email= document.getElementById('email').value=''
+     city= document.getElementById('city').value=''
+     state= document.getElementById('state').value=''
+     zipCode= document.getElementById('zip-code').value=''
+     check= document.getElementById('t-and-c').checked=false
 
     document.getElementById('first-name-valid').style.display='none'
     document.getElementById('last-name-valid').style.display='none'
@@ -105,12 +105,13 @@ else{
   document.getElementById('tnc').style.display='block'
   
 }
+if(!error){
+  alert('You have successfully submitted form')
+  reset()
+ }
 
       }
-     if(!error){
-      alert('You have successfully submitted form')
-      reset()
-     }
+     
    
   
 }
