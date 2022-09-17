@@ -35,7 +35,7 @@
           <form class="row g-3 needs-validation registraion-form" novalidate>
               <div class="col-md-4">
                 <label for="first-name" class="form-label">First name</label>
-                <input type="text" class="form-control" id="first-name"  required autocomplete="off" onkeypress="validate(false)">
+                <input type="text" class="form-control" id="first-name"  required autocomplete="off" onkeyup="validate(false)">
                 <div class="valid-feedback" id="first-name-valid">
                   Looks good!
                 </div>
@@ -45,7 +45,7 @@
               </div>
               <div class="col-md-4">
                 <label for="last-name" class="form-label">Last name</label>
-                <input type="text" class="form-control" id="last-name"  required autocomplete="off" onkeypress="validate(false)">
+                <input type="text" class="form-control" id="last-name"  required autocomplete="off" onkeyup="validate(false)">
                 <div class="valid-feedback" id="last-name-valid">
                   Looks good!
                 </div>
@@ -57,7 +57,7 @@
                 <label for="email" class="form-label">Email</label>
                 <div class="input-group has-validation">
                   <span class="input-group-text" id="inputGroupPrepend">@</span>
-                  <input type="text" class="form-control" id="email" aria-describedby="inputGroupPrepend" required autocomplete="off" onkeypress="validate(false)">
+                  <input type="text" class="form-control" id="email" aria-describedby="inputGroupPrepend" required autocomplete="off" onkeyup="validate(false)">
                   <div class="valid-feedback" id="email-valid">
                     Looks good!
                   </div>
@@ -68,7 +68,7 @@
               </div>
               <div class="col-md-6">
                 <label for="city" class="form-label">City</label>
-                <input type="text" class="form-control" id="city" required autocomplete="off" onkeypress="validate(false)">
+                <input type="text" class="form-control" id="city" required autocomplete="off" onkeyup="validate(false)">
                 <div class="valid-feedback" id="city-valid">
                   Looks good!
                 </div>
@@ -126,7 +126,7 @@
               </div>
               <div class="col-md-3">
                 <label for="zip-code" class="form-label">Zip</label>
-                <input type="text" class="form-control" id="zip-code" required autocomplete="off" onkeypress="validate(false)">
+                <input type="text" class="form-control" id="zip-code" required autocomplete="off" onkeyup="validate(false)">
                 
                 <div class="valid-feedback" id="zip-code-valid">
                   Looks good!
